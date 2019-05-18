@@ -1,0 +1,321 @@
+{
+  "font": "Lucida Console,12",
+  "crForeground": "#ff0000",
+  "crBackground": "#ffffff",
+  
+  "editor": 
+    {
+     	"font": "Courier New,12",
+  		"crForeground": "#000000",
+  		"crBackground": "#ffffff",
+  		
+  		"app_cmd": 
+    	{
+  			"font": "Lucida Console,12",
+  			"themeName":"Black",
+  			"items":
+			[
+				{
+			   			"name":"CMD",
+			   			"path":"cmd.exe"
+		   		},
+		   		{
+			   			"name":"PowerShell",
+			   			"path":"PowerShell.exe"
+		   		},
+		   		{
+			   			"name":"Git Bash",
+			   			"path":"D:\\Program Files\\Git\\bin\\bash.exe"
+		   		}
+		   	]
+    	}
+    },
+
+    "language":
+    {
+	   "font": "Consolas,14",
+  	   "items":
+		[
+			{
+		   			"name":"default",
+		   			"ext":"*.txt;*.*",
+		   			"trait":"NOCASEVAR_TOPREDEF",
+					"setEnvironment": "",
+  					"compileCommand": "",
+  					"runCommand": "",
+  					"syntaxFile": "setting/language/default.json"
+	   		},
+	   		{
+		   			"name":"C/C++",
+		   			"ext":"*.cpp;*.c;*.cxx;*.h;*cc",
+		   			"trait":"",
+					"setEnvironment": "\"d:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\VC\\bin\\vcvars32.bat\"",
+  					"compileCommand": "del $file_path$file_name.exe \r\n cl /Fo\"$file_path$file_name\" /Fe\"$file_path$file_name\" \"$full_path\"",
+  					"runCommand": "\"$file_path$file_name.exe\"",
+  					"syntaxFile": "setting/language/cpp.json"
+	   		},
+	   		{
+		   			"name":"Python",
+		   			"ext":"*.py",
+		   			"trait":"",
+					"setEnvironment": "",
+  					"compileCommand": "",
+  					"runCommand": "\"C:\\Python27\\python.exe\" \"$full_path\"",
+  					"syntaxFile": "setting/language/python.json"
+	   		},
+	   		{
+		   			"name":"XML",
+		   			"ext":"*.xml",
+		   			"trait":"",
+					"setEnvironment": "",
+  					"compileCommand": "",
+  					"syntaxFile": "setting/language/xml.json"
+	   		},
+	   		{
+		   			"name":"PHP",
+		   			"ext":"*.php",
+		   			"trait":"",
+					"setEnvironment": "",
+  					"compileCommand": "",
+  					"runCommand": "D:\\wamp64\\bin\\php\\php5.6.31\\php.exe -f \"$full_path\"",
+  					"syntaxFile": "setting/language/php.json"
+	   		},
+	   		{
+		   			"name":"SQL",
+		   			"ext":"*.sql",
+		   			"trait":"",
+  					"syntaxFile": "setting/language/sql.json"
+	   		},
+	   		{
+		   			"name":"BASH",
+		   			"ext":"*.sh",
+		   			"trait":"NOCASEVAR_TOPREDEF",
+					"setEnvironment": "",
+  					"compileCommand": "",
+  					"runCommand": "",
+  					"syntaxFile": "setting/language/bash.json"
+	   		},
+	   		{
+		   			"name":"HTML",
+		   			"ext":"*.htm;*.html",
+		   			"trait":"NOCASEVAR_TOPREDEF",
+  					"syntaxFile": "setting/language/html.json"
+	   		},
+	   		
+	   		{
+		   			"name":"JAVA",
+		   			"ext":"*.java",
+		   			"trait":"NOCASEVAR_TOPREDEF",
+					"setEnvironment": "",
+  					"compileCommand": "",
+  					"runCommand": "",
+  					"syntaxFile": "setting/language/java.json"
+	   		},
+	   		{
+		   			"name":"JAVASCRIPT",
+		   			"ext":"*.js",
+		   			"trait":"NOCASEVAR_TOPREDEF",
+  					"syntaxFile": "setting/language/javascript.json"
+	   		},
+	   		{
+		   			"name":"JSON",
+		   			"ext":"*.json",
+		   			"trait":"NOCASEVAR_TOPREDEF",
+  					"syntaxFile": "setting/language/json.json"
+	   		},
+	   		{
+		   			"name":"CSS",
+		   			"ext":"*.css",
+		   			"trait":"NOCASEVAR_TOPREDEF",
+  					"syntaxFile": "setting/language/css.json"
+	   		},
+	   		{
+		   			"name":"MAKEFILE",
+		   			"ext":"*.mk",
+		   			"trait":"",
+  					"syntaxFile": "setting/language/makefile.json"
+	   		},
+	   		{
+		   			"name":"GO",
+		   			"ext":"*.json",
+		   			"trait":"NOCASEVAR_TOPREDEF",
+  					"syntaxFile": "setting/language/go.json"
+	   		},
+	   		{
+		   			"name":"CSHARP",
+		   			"ext":"*.cs",
+		   			"trait":"NOCASEVAR_TOPREDEF",
+  					"syntaxFile": "setting/language/csharp.json"
+	   		}
+	   	]
+  	   
+    },
+    
+    "theme":
+    {
+       "curTheme":"Black",
+  	   "items":
+		[
+			{
+					"name":"White",
+					"font": "Consolas,14",
+		   			"crDefaultBack": "#ffffff",
+		   			"crDefaultFront":"#000000",
+		   			
+		   			"crKeywordBack":"#ffffff",
+		   			"crKeywordFront":"#0000FF",
+		   			
+		   			"crStringBack":"#ffffff",
+		   			"crStringFront":"#ff00ff",
+		   			
+		   			"crVarBack":"#ffffff",
+		   			"crVarFront":"#008080",
+		   			
+		   			"crKnowVarBack":"#ffffff",
+		   			"crKnowVarFront":"#800000",
+		   			
+		   			"crNumberBack":"#ffffff",
+		   			"crNumberFront":"#d96200",
+		   			
+		   			"crNoteBack":"#ffffff",
+		   			"crNoteFront":"#007F00",
+		   			
+		   			"crFunDefBack":"#ffffff",
+		   			"crFunDefFront":"#ff0000",
+		   			
+		   			"crFunCallBack":"#ffffff",
+		   			"crFunCallFront":"#ff0000",
+		   			
+		   			"crFunDecBack":"#ffffff",
+		   			"crFunDecFront":"#ff000",
+		   			
+		   			"crPreDefineBack":"#ffffff",
+		   			"crPreDefineFront":"#303030",
+		   			
+		   			"crSelectBack":"#000080",
+		   			"crSelectFront":"#ffffff",
+		   			
+		   			"crHeightBack":"#C0C0C0",
+		   			"crHeightFront":"#000000",
+		   			
+		   			"crSpaceBack":"#ffffff",
+		   			"crSpaceFront":"#999999",
+		   			
+		   			"crCollapseLabelBack":"#ffffff",
+		   			"crCollapseLabelFront":"#ff8000",
+		   			
+		   			"crCollapseTextBack":"#ffffff",
+		   			"crCollapseTextFront":"#C0C0C0",
+		   			
+		   			"crSearchPathBack":"#22282a",
+		   			"crSearchPathFront":"#008000"
+	   		},
+	   		{
+					"name":"Pea Green",
+		   			"crDefaultBack": "#c7edcc",
+		   			"crDefaultFront":"#000000",
+		   			
+		   			"crKeywordBack":"#c7edcc",
+		   			"crKeywordFront":"#0000FF",
+		   			
+		   			"crStringBack":"#c7edcc",
+		   			"crStringFront":"#ff00ff",
+		   			
+		   			"crVarBack":"#c7edcc",
+		   			"crVarFront":"#101010",
+		   			
+		   			"crKnowVarBack":"#c7edcc",
+		   			"crKnowVarFront":"#800000",
+		   			
+		   			"crNumberBack":"#c7edcc",
+		   			"crNumberFront":"#d96200",
+		   			
+		   			"crNoteBack":"#c7edcc",
+		   			"crNoteFront":"#008000",
+		   			
+		   			"crFunDefBack":"#c7edcc",
+		   			"crFunDefFront":"#ff0000",
+		   			
+		   			"crFunCallBack":"#c7edcc",
+		   			"crFunCallFront":"#ff0000",
+		   			
+		   			"crFunDecBack":"#c7edcc",
+		   			"crFunDecFront":"#ff000",
+		   			
+		   			"crPreDefineBack":"#c7edcc",
+		   			"crPreDefineFront":"#303030",
+		   			
+		   			"crSelectBack":"#000080",
+		   			"crSelectFront":"#c7edcc",
+		   			
+		   			"crHeightBack":"#C0C0C0",
+		   			"crHeightFront":"#000000",
+		   			
+		   			"crSpaceBack":"#c7edcc",
+		   			"crSpaceFront":"#999999",
+		   			
+		   			"crCollapseLabelBack":"#c7edcc",
+		   			"crCollapseLabelFront":"#ff8000",
+		   			
+		   			"crCollapseTextBack":"#c7edcc",
+		   			"crCollapseTextFront":"#C0C0C0",
+		   			
+		   			"crSearchPathBack":"#22282a",
+		   			"crSearchPathFront":"#008000"
+	   		},
+	   		{
+					"name":"Black",
+		   			"crDefaultBack": "#22282a",
+		   			"crDefaultFront":"#bbbbbb",
+		   			
+		   			"crKeywordBack":"#22282a",
+		   			"crKeywordFront":"#93c763",
+		   			
+		   			"crStringBack":"#22282a",
+		   			"crStringFront":"#ec7600",
+		   			
+		   			"crVarBack":"#22282a",
+		   			"crVarFront":"#00c0c0",
+		   			
+		   			"crKnowVarBack":"#22282a",
+		   			"crKnowVarFront":"#bbbb11",
+		   			
+		   			"crNumberBack":"#22282a",
+		   			"crNumberFront":"#ffcd22",
+		   			
+		   			"crNoteBack":"#22282a",
+		   			"crNoteFront":"#66747b",
+		   			
+		   			"crFunDefBack":"#22282a",
+		   			"crFunDefFront":"#FF0000",
+		   			
+		   			"crFunCallBack":"#22282a",
+		   			"crFunCallFront":"#FF0000",
+		   			
+		   			"crFunDecBack":"#22282a",
+		   			"crFunDecFront":"#FF0000",
+		   			
+		   			"crPreDefineBack":"#22282a",
+		   			"crPreDefineFront":"#ee00ee",
+		   			
+		   			"crSelectBack":"#ec7600",
+		   			"crSelectFront":"#22282a",
+		   			
+		   			"crHeightBack":"#6c7b8b",
+		   			"crHeightFront":"#ffffff",
+		   			
+		   			"crSpaceBack":"#22282a",
+		   			"crSpaceFront":"#777777",
+		   			
+		   			"crCollapseLabelBack":"#22282a",
+		   			"crCollapseLabelFront":"#ffff00",
+		   			
+		   			"crCollapseTextBack":"#22282a",
+		   			"crCollapseTextFront":"#555555",
+		   			
+		   			"crSearchPathBack":"#22282a",
+		   			"crSearchPathFront":"#00ff00"
+	   		}
+	   	]
+    }
+}

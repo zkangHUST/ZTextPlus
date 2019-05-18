@@ -1,0 +1,19 @@
+{
+    "language": "default",
+	"pre_def0":"[#(){}:]",
+	"pre_def1":"[a-zA-Z0-9_]",
+    "pre_def2":"[^\"]",
+    "pre_def3":"[a-zA-Z_]",
+    "pre_def4":"[0-9]",
+    "pre_def5":"[^\\\"\n]",
+    "pre_def6":"[^\\']",
+    "pre_def7":"[^a-zA-Z0-9]",
+    "pre_def8":"[0-9]",
+    "pre_def9":"[uUlLfF]",
+    "pre_def10":"[^'\n]",
+    "sub_pattern1":"[\\][%*%e]",
+    "string":"\"[@5%m][$1%m%b][\"%t%x]",
+    "number":"[@8][@8%m][@7%k]",
+    "plain_text":"[@3][@1%m]",
+    "combo_keyword1":"[#p]://[#p%t]|[#p]://[#m%t]"
+}

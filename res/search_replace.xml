@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view class = "demo_view" name="查找和替换" pos="0,0,640,300" back_color="35:87:141" fore_color="255:255:255">
+  <widget class="widget_tabcontrol"  id = "12"  text="name：" pos="30,60,50,30" >
+  	<item title="查  找" />
+  	<item title="替  换" />
+  </widget>
+</view>

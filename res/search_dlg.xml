@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view class = "demo_view" name="Add Path" pos="0,0,640,300" back_color="35:87:141" fore_color="255:255:255">
+  <widget class="widget_combobox"  id = "30"  text="name：" pos="10,20,250,25" style="CBS_DROPDOWN" />
+  <widget class="widget_pic_button" name = "fff" id = "31"  text="O"     pos="300,20,50,25" style=""></widget>
+  <widget class="widget_button" name = "fff" id = "32"   text="上一个"    pos="350,20,60,25" style=""></widget>
+  <widget class="widget_button" name = "fff" id = "33"   text="下一个"    pos="415,20,60,25" style=""></widget>
+  <widget class="widget_button" name = "fff" id = "39"   text="查找所有"  pos="480,20,60,25" style=""></widget>
+
+  <widget class="widget_button" name = "fff" id = "34"   text="区分大小写"  pos="15,100,100,25" style="BS_AUTOCHECKBOX"></widget>
+  <widget class="widget_button" name = "fff" id = "35"   text="全字匹配"  pos="150,100,100,25" style="BS_AUTOCHECKBOX"></widget>
+  <widget class="widget_button" name = "fff" id = "36"   text="基于正则表达式"  pos="15,130,130,25" style="BS_AUTOCHECKBOX|WS_DISABLED"></widget>
+  <widget class="widget_button" name = "fff" id = "37"   text="扩展\n和\t"  pos="150,130,130,25" style="BS_AUTOCHECKBOX|WS_DISABLED"></widget>
+</view>

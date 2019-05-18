@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view class = "demo_view" name="Add Path" pos="0,0,640,300" back_color="35:87:141" fore_color="255:255:255">
+  <widget class="widget_static"  id = "12"  text="name£º" pos="30,60,50,30" />
+  <widget class="widget_static" id = "12" text="path£º" pos="30,100,50,30" />
+  <widget class="widget_edit" name = "fff" id = "3"     text=""  pos="100,60,420,25" style=""></widget>
+  <widget class="widget_edit" name = "fff" id = "4"     text=""  pos="100,100,420,25" style=""></widget>
+  <widget class="widget_button" name = "fff" id = "1"   text="OK"  pos="400,150,120,40" style=""></widget>
+  <widget class="widget_button" name = "fff" id = "0"  text="Cancel"  pos="200,150,120,40" style=""></widget>
+</view>

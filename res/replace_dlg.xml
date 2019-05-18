@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view class = "demo_view" name="Add Path" pos="0,0,640,300" back_color="35:87:141" fore_color="255:255:255">
+  <widget class="widget_combobox"  id = "100"  text="name：" pos="10,20,250,25" style="CBS_DROPDOWN" />
+  <widget class="widget_button" name = "fff" id = "30"  text="替  换"  pos="300,20,60,25" style=""></widget>
+  <widget class="widget_button" name = "fff" id = "32"   text="上一个"  pos="365,20,60,25" style=""></widget>
+  <widget class="widget_button" name = "fff" id = "33"   text="下一个"  pos="430,20,60,25" style=""></widget>
+  <widget class="widget_button" name = "fff" id = "34"   text="全部替换"  pos="495,20,60,25" style=""></widget>
+  <widget class="widget_combobox"  id = "101"  text="name：" pos="10,55,250,25" style="CBS_DROPDOWN" />
+  
+  <widget class="widget_button" name = "fff" id = "104"   text="区分大小写"  pos="15,100,100,25" style="BS_AUTOCHECKBOX"></widget>
+  <widget class="widget_button" name = "fff" id = "105"   text="全字匹配"  pos="150,100,100,25" style="BS_AUTOCHECKBOX"></widget>
+  <widget class="widget_button" name = "fff" id = "106"   text="基于正则表达式"  pos="15,130,130,25" style="BS_AUTOCHECKBOX|WS_DISABLED"></widget>
+  <widget class="widget_button" name = "fff" id = "107"   text="扩展\n和\t"  pos="150,130,130,25" style="BS_AUTOCHECKBOX|WS_DISABLED"></widget>
+</view>
